@@ -22,8 +22,8 @@ var __rest = (this && this.__rest) || function (s, e) {
 };
 import { jsx as _jsx } from "react/jsx-runtime";
 import React, { useRef, useMemo, useEffect } from 'react';
-import { clamp } from '@component/editor/setting/common/colorPicker/utils';
-import { useEventCallback } from '@component/editor/setting/common/colorPicker/hooks/useEventCallback';
+import { useEventCallback } from "../../hooks/useEventCallback";
+import { clamp } from "../../utils";
 import classNames from 'classnames/bind';
 import style from './Interactive.module.scss';
 var cx = classNames.bind(style);
@@ -36,7 +36,7 @@ var getTouchPoint = function (touches, touchId) {
     return touches[0];
 };
 var getParentWindow = function (node) {
-    return (node && node.ownerDocument.defaultView) || self;
+    return (node && node.ownerDocument.defaultView) || window;
 };
 var getRelativePosition = function (node, event, touchId) {
     var rect = node.getBoundingClientRect();

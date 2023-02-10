@@ -11,9 +11,9 @@ var __assign = (this && this.__assign) || function () {
 };
 import { jsx as _jsx, jsxs as _jsxs } from "react/jsx-runtime";
 import { useEffect, useState } from 'react';
+import { alphaToPer, aToHex, hexToRgba, rgbToHex } from "../utils/convert";
 import classNames from 'classnames/bind';
 import style from './ColorInput.module.scss';
-import { alphaToPer, aToHex, hexToRgba, rgbToHex } from '@component/editor/setting/common/colorPicker/utils/convert';
 var cx = classNames.bind(style);
 var ColorInput = function (_a) {
     var color = _a.color, onChange = _a.onChange;

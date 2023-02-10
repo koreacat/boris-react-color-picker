@@ -14,7 +14,7 @@ import React from 'react';
 import { hsvaToHslString } from '../../utils/convert';
 import { clamp, round } from '../../utils';
 import { Pointer } from '../pointer';
-import { Interactive } from '@component/editor/setting/common/colorPicker/common/interactive';
+import { Interactive } from "../interactive";
 import classNames from 'classnames/bind';
 import style from './Saturation.module.scss';
 var cx = classNames.bind(style);

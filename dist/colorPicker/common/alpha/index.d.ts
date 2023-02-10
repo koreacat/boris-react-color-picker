@@ -1,5 +1,5 @@
 /// <reference types="react" />
-import { HsvaColor } from '@component/editor/setting/common/colorPicker/types';
+import { HsvaColor } from "../../types";
 interface Props {
     hsva: HsvaColor;
     onChange: (newAlpha: {

@@ -1,10 +1,9 @@
-import { hexToRgba } from '@component/editor/setting/common/colorPicker/utils/convert';
+import { hexToRgba } from "./convert";
 export var clamp = function (number, min, max) {
     if (min === void 0) { min = 0; }
     if (max === void 0) { max = 1; }
     return number > max ? max : number < min ? min : number;
 };
-export var formatClassName = function (names) { return names.filter(Boolean).join(' '); };
 export var round = function (number, digits, base) {
     if (digits === void 0) { digits = 0; }
     if (base === void 0) { base = Math.pow(10, digits); }

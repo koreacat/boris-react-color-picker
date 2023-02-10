@@ -10,10 +10,10 @@ var __assign = (this && this.__assign) || function () {
     return __assign.apply(this, arguments);
 };
 import { jsx as _jsx, jsxs as _jsxs } from "react/jsx-runtime";
-import { Interactive } from '@component/editor/setting/common/colorPicker/common/interactive';
-import { clamp, round } from '@component/editor/setting/common/colorPicker/utils';
-import { hsvaToHslaString } from '@component/editor/setting/common/colorPicker/utils/convert';
-import { Pointer } from '@component/editor/setting/common/colorPicker/common/pointer';
+import { Interactive } from "../interactive";
+import { clamp, round } from "../../utils";
+import { hsvaToHslaString } from "../../utils/convert";
+import { Pointer } from "../pointer";
 import classNames from 'classnames/bind';
 import style from './Alpha.module.scss';
 var cx = classNames.bind(style);

@@ -10,9 +10,9 @@ var __assign = (this && this.__assign) || function () {
     return __assign.apply(this, arguments);
 };
 import { jsx as _jsx } from "react/jsx-runtime";
+import { hexToRgba, rgbaToHex } from "../utils/convert";
 import classNames from 'classnames/bind';
 import style from './Palette.module.scss';
-import { hexToRgba, rgbaToHex } from '@component/editor/setting/common/colorPicker/utils/convert';
 var cx = classNames.bind(style);
 var dummyColos = [
     '#FFFFFF',

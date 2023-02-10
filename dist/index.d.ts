@@ -1,2 +1,1 @@
-declare const ColorPicker: () => null;
-export default ColorPicker;
+export { default as ColorPicker } from "./colorPicker";

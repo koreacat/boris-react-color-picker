@@ -13,9 +13,9 @@ import { jsx as _jsx } from "react/jsx-runtime";
 import React from 'react';
 import { clamp, round } from '../../utils';
 import { Pointer } from '../pointer';
+import { Interactive } from "../interactive";
 import classNames from 'classnames/bind';
 import style from './Hue.module.scss';
-import { Interactive } from '@component/editor/setting/common/colorPicker/common/interactive';
 var cx = classNames.bind(style);
 var HueBase = function (_a) {
     var hue = _a.hue, onChange = _a.onChange;
