@@ -1,0 +1,25 @@
+.inputWrap {
+  margin-top: 24px;
+
+  .input {
+    width: 192px;
+    height: 40px;
+    padding: 10px;
+    background: #F5F6F7;
+    border: none;
+    border-radius: 6px;
+    font-family: Pretendard;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    color: #343A40;
+    outline: none;
+
+    &.alpha {
+      width: 95px;
+      margin-left: 9px;
+      padding-left: 25px;
+    }
+  }
+
+}

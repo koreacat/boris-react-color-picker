@@ -1,5 +1,1 @@
-// export { default as ImageCrop } from "./ImageCrop";
-
-const ColorPicker = () => null;
-
-export default ColorPicker;
+export { default as ColorPicker } from "./colorPicker";

@@ -1,0 +1,16 @@
+.saturationArea {
+  position: relative;
+  width: 244px;
+  height: 244px;
+  border-radius: 12px;
+  background-image: linear-gradient(to top, #000, rgba(0, 0, 0, 0)),
+  linear-gradient(to right, #fff, rgba(255, 255, 255, 0));
+  cursor: pointer;
+
+  .pointer {
+    width: 24px;
+    height: 24px;
+    box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.18);
+    z-index: 3;
+  }
+}

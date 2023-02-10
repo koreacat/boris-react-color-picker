@@ -1,0 +1,14 @@
+import { RgbaColor, HslaColor, HsvaColor } from '../types';
+export declare const hexToRgba: (hex: string) => RgbaColor;
+export declare const hsvaToHex: (hsva: HsvaColor) => string;
+export declare const hsvaToHsla: ({ h, s, v, a }: HsvaColor) => HslaColor;
+export declare const hsvaToHslString: (hsva: HsvaColor) => string;
+export declare const hsvaToHsvString: (hsva: HsvaColor) => string;
+export declare const hsvaToHslaString: (hsva: HsvaColor) => string;
+export declare const hsvaToRgba: ({ h, s, v, a }: HsvaColor) => RgbaColor;
+export declare const aToHex: (a: number) => string;
+export declare const rgbToHex: ({ r, g, b }: RgbaColor) => string;
+export declare const alphaToPer: (a: number) => string;
+export declare const rgbaToHex: ({ r, g, b, a }: RgbaColor) => string;
+export declare const rgbaToHsva: ({ r, g, b, a }: RgbaColor) => HsvaColor;
+export declare const roundHsva: (hsva: HsvaColor) => HsvaColor;
